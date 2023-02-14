@@ -14,3 +14,4 @@ script that prints all possible combinations of two letters, except oo.
 script that prints a number with two decimal places, followed by a new line.
 script that converts a number from base 10 to base 16.
 script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
