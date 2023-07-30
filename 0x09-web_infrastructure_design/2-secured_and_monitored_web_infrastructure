@@ -1,0 +1,23 @@
+	WEB INFRASTRUCTURE DESIGN.
+
+TASK 2.
+
+	Introduction:
+Addition on web infrastructure:
+
+1. **3 Firewalls:** Ensures layered security by filtering and controlling incoming/outgoing traffic, safeguarding against cyber threats.
+
+2. **1 SSL Certificate:** Enables HTTPS to encrypt data transmission, securing user privacy and protecting against data interception.
+
+3. **3 Monitoring Clients:** Data collectors for Sumo Logic or other monitoring services to track performance, detect issues, and ensure system reliability.
+ firewalls play a critical role in securing networks, maintaining data integrity, and mitigating potential risks from external threats.
+Traffic is served over HTTPS to ensure secure and encrypted communication between the user's browser and the web server. It protects sensitive data, such as login credentials and personal information, from interception and unauthorized access, enhancing user privacy and data security.
+Monitoring is used to track and observe various aspects of systems, networks, applications, or processes. It helps detect issues, ensure performance, and maintain system reliability by providing insights, alerts, and data for analysis and optimization.
+Monitoring tools combine data from these sources, process and analyze it, and provide real-time insights, reports, and alerts to administrators for proactive management and issue resolution.
+
+To monitor web server QPS: Choose a monitoring tool, enable QPS metrics on the web server, install the monitoring agent, configure the tool, visualize metrics, set alerts, and optimize performance based on the data.
+
+	Issues in the web infrastructure:
+Terminating SSL at the load balancer level can be an issue because it exposes sensitive user data to potential risks. Decrypting SSL traffic at the load balancer means data is transmitted in plain text within the internal network. This opens a security vulnerability and requires additional security measures within the network to protect sensitive information from unauthorized access or interception.
+Having only one MySQL server capable of accepting writes is an issue because it creates a single point of failure. If the server fails, the entire write functionality becomes unavailable, leading to downtime and potential data loss. Additionally, it limits the system's ability to handle high write loads, causing performance bottlenecks and reduced scalability. Implementing a primary-replica (master-slave) setup can provide fault tolerance, data redundancy, and distribute write traffic to address these issues.
+Having servers with all the same components (database, web server, and application server) might be a problem due to the lack of diversity and potential for single points of failure. If all servers are identical and one of them experiences a critical issue or vulnerability, it could affect the entire cluster. Introducing variations, such as different hardware configurations or using diverse technologies, can improve fault tolerance, avoid homogeneous failures, and enhance overall system resilience.
