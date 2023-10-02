@@ -1,15 +1,1 @@
-WEB INFRASTRUCTURE DESIGN.
-
-TASK 0
-
-	Introduction:
-A server is a computer or computer program that manages access to a centralized resource or service in a network.
-The role of a domain name is to serve as the address that helps users access websites on the internet.In the case of 'www.foobar.com', the 'www' is a subdomain.
-A web server is the one that hosts and delivers web content to users' browsers when requested while an application server processes and serves applications to clients over a network.
-A database stores and manages structured data for retrieval and manipulation.
-The server uses the Hypertext Transfer Protocol (HTTP) to communicate with the user's computer when requesting a website.
-
-	Issues:
-SPOF(Single Point of Failure). It refers to a component in a system that, if it fails, can bring down the entire system or cause significant disruptions.
-Downtime during maintenance is a common issue in systems. Maintenance activities, such as software updates, hardware upgrades, or configuration changes, may require the system to be taken offline temporarily, resulting in downtime.
-n the context of system scaling, a "scaling issue" refers to a problem that arises when attempting to handle an increased workload or user demand. As a system grows, it may encounter challenges in maintaining performance, responsiveness, and efficiency. Common scaling issues include:perfomance Bottlenecks, Resource Exhaustion, Latency and Response Time ,Data management as well as Concurrency and parallel processing.
+https://docs.google.com/document/d/1dAsL88QPb9yZwTvBuYEnQy72swnZ93qnWlziVgM7-QU/edit?usp=sharing
