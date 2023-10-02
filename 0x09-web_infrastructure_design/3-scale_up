@@ -1,11 +1,1 @@
-	WEB INFRASTRUCTURE DESIGN.
-
-TASK 3
-
-	Introduction/explanation:
-The essence of adding the following is:
-1. **1 Server:** To host the entire application on a single server, suitable for small-scale projects with low traffic and resource requirements.
-
-2. **1 Load-Balancer (HAproxy) Cluster:** To distribute incoming traffic across multiple servers, providing scalability and fault tolerance, ensuring high availability.
-
-3. **Split Components (Web Server, App Server, Database):** To separate each component onto dedicated servers, optimizing performance, scalability, and allowing better resource management and isolation.
+https://docs.google.com/document/d/13B3-8W9kzXbuJstBdFFLyCK9nstE32Et5x1M_2W_Mhc/edit?usp=sharing
