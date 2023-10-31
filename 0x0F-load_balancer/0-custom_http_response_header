@@ -13,7 +13,7 @@ reset='\033[0m'
 
 echo -e "${blue}Updating and doing some minor checks...${reset}\n"
 
-funtion install() {
+function install() {
 	command -v "$1" &> /dev/null
 
 	# shellcheck disable=SC2181
